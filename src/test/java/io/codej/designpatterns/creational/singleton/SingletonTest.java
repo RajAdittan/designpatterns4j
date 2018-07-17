@@ -5,11 +5,11 @@ import groovy.util.GroovyTestCase;
 import java.io.Closeable;
 import java.io.IOException;
 
-public class GlobalRegistryTest extends GroovyTestCase {
+public class SingletonTest extends GroovyTestCase {
 
     private static String MSG_CLOSE = "closeable.close(): [info] {some message to print at close}";
 
-    public GlobalRegistryTest() {
+    public SingletonTest() {
         super();
     }
 
