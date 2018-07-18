@@ -12,6 +12,8 @@ The patterns are presented as follows;
         - Notify one ore more registered observers up on changes in the observable.
     - Template
         - Create a template method to perform repeated operations.
+    - Mediator
+        - Allow a middleware object to control supplier and consumer needs.
 3. Structural
     - Adapter
         - Make two or more unrelated interfaces to work together.
