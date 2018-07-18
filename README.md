@@ -17,3 +17,5 @@ The patterns are presented as follows;
         - Make two or more unrelated interfaces to work together.
     - Proxy
         - Provide a surrogate to one or more instances of a class thereby controlling access to instances.
+    - Facade
+        - Provide simplified client interface to hide complex interactions between various objects.
