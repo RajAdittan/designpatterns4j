@@ -10,4 +10,6 @@ The patterns are presented as follows;
 2. Behavioral
     - Observer
         - Notify one ore more registered observers up on changes in the observable.
+    - Template
+        - Create a template method to perform repeated operations.
 3. Structural
