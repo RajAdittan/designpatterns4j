@@ -13,3 +13,7 @@ The patterns are presented as follows;
     - Template
         - Create a template method to perform repeated operations.
 3. Structural
+    - Adapter
+        - Make two or more unrelated interfaces to work together.
+    - Proxy
+        - Provide a surrogate to one or more instances of a class thereby controlling access to instances.
