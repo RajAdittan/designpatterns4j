@@ -14,6 +14,8 @@ The patterns are presented as follows;
         - Create a template method to perform repeated operations.
     - Mediator
         - Allow a middleware object to control supplier and consumer needs.
+    - Command
+        - Create and execute irreversible action.
 3. Structural
     - Adapter
         - Make two or more unrelated interfaces to work together.
