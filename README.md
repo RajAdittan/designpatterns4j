@@ -7,6 +7,8 @@ The patterns are presented as follows;
         - Disable object creation of the Singleton class and ensure only one instance exist and accessible in current VM.
     - Prototype
         - Avoid creating object from scratch instead make copies from a known good state of the class instance.
+    - Builder
+        - Build creating a complex object using known values step by step.
 2. Behavioral
     - Observer
         - Notify one ore more registered observers up on changes in the observable.

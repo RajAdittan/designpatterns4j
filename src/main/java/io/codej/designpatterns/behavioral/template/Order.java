@@ -12,8 +12,12 @@ public class Order {
     private double price;
     private Side side;
     private OrderType type;
+    private String user;
+    private String desk;
+    private String account;
     private LocalDateTime creationStamp;
     private LocalDateTime changeStamp;
+
 
     public Order(int id) {
         this.id = id;
@@ -92,6 +96,30 @@ public class Order {
         return side;
     }
 
+    public String getUser() {
+        return user;
+    }
+
+    public void setUser(String user) {
+        this.user = user;
+    }
+
+    public String getDesk() {
+        return desk;
+    }
+
+    public void setDesk(String desk) {
+        this.desk = desk;
+    }
+
+    public String getAccount() {
+        return account;
+    }
+
+    public void setAccount(String account) {
+        this.account = account;
+    }
+
     @Override
     public String toString() {
         return "Order{" +
@@ -103,6 +131,9 @@ public class Order {
                 ", price=" + price +
                 ", side=" + side +
                 ", type=" + type +
+                ", user='" + user + '\'' +
+                ", desk='" + desk + '\'' +
+                ", account='" + account + '\'' +
                 ", creationStamp=" + creationStamp +
                 ", changeStamp=" + changeStamp +
                 '}';
