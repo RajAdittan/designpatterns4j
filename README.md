@@ -23,3 +23,5 @@ The patterns are presented as follows;
         - Provide a surrogate to one or more instances of a class thereby controlling access to instances.
     - Facade
         - Provide simplified client interface to hide complex interactions between various objects.
+    - Decorator
+        - Add responsibilities at runtime by wrapping up and object without changing the original implementation.
