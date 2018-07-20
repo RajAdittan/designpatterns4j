@@ -24,4 +24,6 @@ The patterns are presented as follows;
     - Facade
         - Provide simplified client interface to hide complex interactions between various objects.
     - Decorator
-        - Add responsibilities at runtime by wrapping up and object without changing the original implementation.
+        - Add responsibilities at runtime by wrapping up an object without changing the original implementation.
+    - Bridge
+        - Decouple abstractions from implementations thereby allow implementations vary independently.
